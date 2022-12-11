@@ -25,6 +25,8 @@ dependencies:
 - split 
 - containers 
 - linear 
+- parser-combinators
+- monoidal-containers
 
 ghc-options:
 - -Wall

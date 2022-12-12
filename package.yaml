@@ -27,7 +27,8 @@ dependencies:
 - linear 
 - parser-combinators
 - monoidal-containers
-
+- fgl
+- distributive
 ghc-options:
 - -Wall
 - -Wcompat

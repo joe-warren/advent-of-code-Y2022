@@ -9,9 +9,8 @@ import qualified Data.Map as M
 import Data.Foldable (toList)
 import Data.Maybe (catMaybes)
 import Control.Lens
-
-
 import Linear.V2
+
 data Thing = Rock | Sand deriving (Show, Eq)
 
 parser :: Parser (M.Map (V2 Int) Thing)
